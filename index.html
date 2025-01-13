@@ -16,7 +16,7 @@
         }
  .reveal .slides section {
             height: 100vh;
-            padding: 20px;
+            padding: 10px;
         }
 
         .full-width-container {
@@ -32,8 +32,8 @@
 
         .full-width-image {
             width: auto;
-            height: 40vh;
-            max-height: 40vh;
+            height: 60vh;
+            max-height: 60vh;
             object-fit: contain;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -42,9 +42,8 @@
 
         .points-container {
             width: 80%;
-            height: 40vh;
-            max-height: 40vh;
-            overflow-y: auto;
+            position: absolute;
+            bottom: 10px;
             text-align: left;
             background: rgba(255, 255, 255, 0.9);
             padding: 15px;
@@ -112,11 +111,11 @@
         /* Responsive adjustments */
         @media (max-height: 600px) {
             .full-width-image {
-                height: 30vh;
+                height: 60vh;
             }
             
             .points-container {
-                height: 45vh;
+                height: 40vh;
             }
         }
     </style>
@@ -134,29 +133,22 @@
                             <li><i class="fas fa-check-circle positive icon"></i>Structure claire avec les champs de connexion bien espacés</li>
                             <li><i class="fas fa-check-circle positive icon"></i>Options clairement visibles pour la récupération du mot de passe et la création de compte</li>
                         </ul>
-                        <h6 class="fragment">Points Négatifs</h6>
+                        <h6>Points Négatifs</h6>
                         <ul>
-                            <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Manque de message de bienvenue ou d'explication contextuelle</li>
+                            <li><i class="fas fa-times-circle negative icon"></i>Manque de message de bienvenue ou d'explication contextuelle</li>
                         </ul>
                     </div>
                 </div>
             </section>
-
-            <!-- Page de Chronologie -->
+            <!-- Page Campus France -->
             <section>
                 <div class="full-width-container">
-                    <img src="assets/cf6.png" alt="Page de Chronologie" class="full-width-image">
+                    <img src="assets/cf4.png" alt="Page Campus France" class="full-width-image">
                     <div class="points-container">
                         <h6>Points Positifs</h6>
                         <ul>
-                            <li><i class="fas fa-check-circle positive icon"></i>Timeline verticale claire et intuitive</li>
-                            <li><i class="fas fa-check-circle positive icon"></i>Étapes du processus bien définies</li>
-                            <li><i class="fas fa-check-circle positive icon"></i>Bonne hiérarchie visuelle</li>
-                        </ul>
-                        <h6 class="fragment">Points Négatifs</h6>
-                        <ul>
-                            <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Intégrer des estimations de temps pour chaque étape</li>
-                            <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Possibilité d'ajouter des icônes pour chaque étape</li>
+                            <li><i class="fas fa-check-circle positive icon"></i>Navigation simple et intuitive</li>
+                            <li><i class="fas fa-check-circle positive icon"></i>Titre clair et accueillant et reflète le contexte</li>
                         </ul>
                     </div>
                 </div>
@@ -179,7 +171,25 @@
                     </div>
                 </div>
             </section>
-
+<!-- Page de Chronologie -->
+<section>
+    <div class="full-width-container">
+        <img src="assets/cf6.png" alt="Page de Chronologie" class="full-width-image">
+        <div class="points-container">
+            <h6>Points Positifs</h6>
+            <ul>
+                <li><i class="fas fa-check-circle positive icon"></i>Timeline verticale claire et intuitive</li>
+                <li><i class="fas fa-check-circle positive icon"></i>Étapes du processus bien définies</li>
+                <li><i class="fas fa-check-circle positive icon"></i>Bonne hiérarchie visuelle</li>
+            </ul>
+            <h6 class="fragment">Points Négatifs</h6>
+            <ul>
+                <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Intégrer des estimations de temps pour chaque étape</li>
+                <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Possibilité d'ajouter des icônes pour chaque étape</li>
+            </ul>
+        </div>
+    </div>
+</section>
             <!-- Page d'Accueil -->
             <section>
                 <div class="full-width-container">
@@ -200,24 +210,7 @@
                 </div>
             </section>
 
-            <!-- Page Campus France -->
-            <section>
-                <div class="full-width-container">
-                    <img src="assets/cf4.png" alt="Page Campus France" class="full-width-image">
-                    <div class="points-container">
-                        <h6>Points Positifs</h6>
-                        <ul>
-                            <li><i class="fas fa-check-circle positive icon"></i>Image forte de la Sorbonne qui établit immédiatement le contexte</li>
-                            <li><i class="fas fa-check-circle positive icon"></i>Navigation simple et intuitive</li>
-                            <li><i class="fas fa-check-circle positive icon"></i>Titre clair et accueillant</li>
-                        </ul>
-                        <h6 class="fragment">Points Négatifs</h6>
-                        <ul>
-                            <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Le contraste du texte sur l'image pourrait être amélioré</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+            
 
             <!-- Page À Ne Pas Manquer -->
             <section>
@@ -301,7 +294,6 @@
             </ul>
             <h6 class="fragment">Points Négatifs</h6>
             <ul>
-                <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Manque de visuels</li>
                 <li class="fragment"><i class="fas fa-times-circle negative icon"></i>absence de filtres,texte trop long.</li>
             </ul>
         </div>
@@ -311,12 +303,12 @@
 <!-- Page "chercher emploi" -->
 <section>
     <div class="full-width-container">
-        <img src="assets/searchJob.PNG" alt="France Alumni" class="full-width-image">
+        <img src="assets/creerEntr.PNG" alt="France Alumni" class="full-width-image">
         <div class="points-container">
             <h6>Points Positifs</h6>
             <ul>
-                <li><i class="fas fa-check-circle positive icon"></i> Informations détaillées</li>
-                <li><i class="fas fa-check-circle positive icon"></i>conseils pratiques, liens utiles.</li>
+                <li><i class="fas fa-check-circle positive icon"></i>Informations Complètes</li>
+                <li><i class="fas fa-check-circle positive icon"></i>Liens Utiles</li>
             </ul>
             <h6 class="fragment">Points Négatifs</h6>
             <ul>
@@ -330,16 +322,16 @@
 <!-- Page "chercher emploi" -->
 <section>
     <div class="full-width-container">
-        <img src="assets/creerEntr.PNG" alt="France Alumni" class="full-width-image">
+        <img src="assets/searchJob.PNG" alt="France Alumni" class="full-width-image">
         <div class="points-container">
             <h6>Points Positifs</h6>
             <ul>
-                <li><i class="fas fa-check-circle positive icon"></i> Informations détaillées</li>
-                <li><i class="fas fa-check-circle positive icon"></i>statut étudiant-entrepreneur.</li>
+                <li><i class="fas fa-check-circle positive icon"></i> Informations détaillées sur les démarches pour chercher un emploi en france</li>
+                <li><i class="fas fa-check-circle positive icon"></i>conseils pratiques(CV, lettre de motivation ....)</li>
+                <li><i class="fas fa-check-circle positive icon"></i>liens utiles
             </ul>
             <h6 class="fragment">Points Négatifs</h6>
             <ul>
-                <li class="fragment"><i class="fas fa-times-circle negative icon"></i>Texte trop technique</li>
                 <li class="fragment"><i class="fas fa-times-circle negative icon"></i>absence de guides visuels</li>
             </ul>
         </div>
@@ -356,7 +348,6 @@
             <!-- Conclusion -->
             <section>
                 <h2>Conclusion</h2>
-                <p class="fragment highlight">Le site de Campus France offre une base solide, mais des améliorations en termes de design, d'accessibilité et de fonctionnalités pourraient grandement améliorer l'expérience utilisateur.</p>
                 <p class="fragment highlight">Merci pour votre attention !</p>
             </section>
         </div>
